@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.husbu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.husbu {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.husbu img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.husbu h2 {
+    margin-top: 10px;
+}
+
+.husbu p {
+    color: #666;
+}
